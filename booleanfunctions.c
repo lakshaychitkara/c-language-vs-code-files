@@ -232,7 +232,7 @@ int main(){
 }
 */
 // a tricky code of c in the class
-
+/*
 #include<stdio.h>
 int main(){
     int a,b,c,i,j,k,l,m,n,o,p,q,r,sum=0;
@@ -254,5 +254,21 @@ int main(){
     return 0;
 
 }
-
+*/
+// its big O should be only n
+/*
+#include<stdio.h>
+int main(){
+    int a,b,c,i,j,k,l,m,n,o,p,q,r,sum=0;
+    printf("enter the number of elements in the array:\n");
+    scanf("%d",&q);
+    int arr[q];
+    for(j=0;j<q;j++){
+        scanf("%d",);
+        
+    }
+    
+    return 0;
+    }
+    */
 
