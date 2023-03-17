@@ -97,8 +97,19 @@ int main(){
     printf("enter the number of rs 1 coins in the piggybank:");
     scanf("%d",&one);
     amt=10*ten+5*five+2*two+1*one;
-    printf("the total amount in the piggyback is: %d",amt)
+    printf("the total amount in the piggyback is: %d",amt);
     return 0;
 }
+
 */
+
+// string 
+#include<stdio.h>
+int main(){
+    int a,bc,d,e,f,g,h,i;
+    
+}
+
+
+
 
