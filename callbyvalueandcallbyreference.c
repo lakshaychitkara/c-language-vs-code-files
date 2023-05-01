@@ -71,3 +71,11 @@ int main(){
 
     
 }
+n=int(input()))
+n=int(input())
+n=int(input())
+n=int(input())
+n=int(input())
+
+
+

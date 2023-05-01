@@ -18,7 +18,7 @@ int main()
         printf("\nPRIME");
     else
         printf("NOT-PRIME");
-
+    getch();
     return 0;}}
 /*
 #include<stdio.h>

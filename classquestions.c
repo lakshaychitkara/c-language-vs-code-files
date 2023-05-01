@@ -59,11 +59,13 @@ int main(){
 #include<conio.h>
 #include<math.h>
 int main(){
-    float c,f;
-    printf("enter:"):
-    sanf("%f",&c);
+    int c;
+    printf("enter: \n");
+    scanf("%d",&c);
     
-    printf("the farenheit value after the conversion is:%f",)
+    printf("the farenheit value after the conversion is:%d",c);
+    getch();
+    return 0;
 }
 
 

@@ -371,7 +371,7 @@ int main(){
     return 0;
 }
 */
- 
+ /*
 # include<stdio.h>
 void myfunction(int nynumbers[5]){
     printf("%d \n", mynum)
@@ -379,14 +379,6 @@ void myfunction(int nynumbers[5]){
 int main(){
     
 }
-
-/* 
-# include<stdio.h>
-int main(){
-    printf("enter the value: ");
-    scanf("%d",&a);
-    
-}
 */
 /* 
 # include<stdio.h>
@@ -404,9 +396,231 @@ int main(){
     
 }
 */
+ // patterns question tricky 
+ /*
+# include<stdio.h>
+int main(){
+    int a,b,c,i,j,k,n;
+    char e,f,g;
+    printf("enter the number of rows : ");
+    scanf("%d",&n);
+    for (i=1;i<=n;i++){
+        if (i%2==0)
+        {for(j=1;j<=i;j++){
+            printf("%d",j);
+        }
+        printf("\n");}
+        else 
+        {for(j=1;j<=i;j++){
+            printf("%c",j+96);
+        }
+        printf("\n");}
+    }
+}
+*/
 
 
+// print prime in inter
+/*
+#include<stdio.h>
+int  main( )
+{
+int  start, end, f, temp, i, j ;
+printf(" start: ") ;
+scanf("%d %d",&start,&end) ;
+printf(" \n Prime Numbers are :\n ") ;
+for (  i = start;  i <= end ;  i++ ) 
+{
+f = 0 ;
+for (  j = 2 ;  j < i ;  j++ )
+{
+if (  i % j == 0 )
+f =  1 ;
+break;
+}
+if (  f == 0 )
+printf(" %d " , i) ;
+}
+return ( 0 ) ;
+}
+*/
+
+// what will be the output of the prgram 
+/*
+#include<stdio.h>
+int main()
+{
+    int n,k,x,c;
+    scanf("%d",&n);
+        scanf("%d",&k);
+            scanf("%d",&x);
+    c=x/k;
+    printf("%d",c);
+    return 0;
+}
+*/
+
+// another way of doing the same problem
+/*
+#include<stdio.h>
+int main(){
+    int a,b,c,i,j,n,k;
+    printf("enter the three numbers :");
+    scanf("%d %d %d",&a,&b,&c);
+    if (a>=(c/b)){
+        printf("%d",c/b);
+    }
+    else 
+    {
+        printf("%d",a);
+    }   
+
+    return 0;
+}
+*/
+
+// another way to calculate this using a function of integer type
+/*
+#include<stdio.h>
+int functiontocalculate(){
+    int a,b,c,i,j,n,k;
+    printf("enter the three numbers :");
+    scanf("%d %d %d",&a,&b,&c);
+    if (a>=(c/b)){
+        printf("%d",c/b);
+    }
+    else 
+    {
+        printf("%d",a);
+    }   
+    return 0;
+}
+int main(){
+    functiontocalculate();
+    return 0;
+}
+
+*/
+
+//  another function using program in c
+/*
+#include<stdio.h>
+int main(){
+    int a,b,c,i,j;
+    printf("enter the numbers that are there: \n");
+    scanf("%d")
+}
+*/
 
 
+// this is an array question 
+/*
+int main()
+{
+    int a,b,c,i,j;
+    printf("enter the number : \n");
+    scanf("%d",&a);
+    int arr[a];
+    for(i=0;i<a;i++){
+        printf("enter the element at the %d position :\n");
+        scanf("%d",arr[i]);
+    }
+    printf("{");
+    for(j=0;j<a;j++)
+    {
+        printf("%d, ",arr[i]);
+    }
+    printf("\n");
+    return 0;
+}
+*/
 
+// fibonacci sequence 
+/*
+#include<stdio.h>
+int main(){
+    int i,j,n;
+    scanf("%d",&n);
+    int a=0;
+    int b=1;
+    int c=a+b;
+    printf("%d , %d ",a,b);
+    
+    for(i=0;i<n;i++)
+    {
+        
+        printf(", %d \n",b);
+        a=b;
+        b=c;
+        c=a+b;
+
+    }
+    return 0;
+}
+*/
+
+// sum of the digits of a number
+/*
+#include<stdio.h>
+int main(){
+    int a,b,c,i,j,n;
+    printf("enter the number : \n");
+    scanf("%d",&n);
+    a=n;
+    c=0;
+    while(a>0){
+        c=c+a%10;
+        a=a/10;
+    }
+    printf("%d",c);
+    return 0;
+}
+*/
+
+// finding the hcf and lcm of a number 
+/*
+# include<stdio.h>
+int main(){
+    int a,b,x,y,t, gcd, lcm;
+    printf("enter two integers: \n");
+    scanf("%d %d ", &x,&y);
+    a=x;
+    b=y;
+    while(b!=0)
+    {
+        t=b;
+        b=a%b;
+        a=t;
+    }
+    gcd =a;
+    lcm = (x*y)/gcd ;
+    printf("the greatest common divisor of %d and %d is =%d \n",x,y,gcd);
+    printf("least common multiple of %d and %d = %d\n",x,y,lcm);
+    return 0;
+}
+*/
+
+//  use this to find the greatest common divisor without using the recursion method
+
+#include<stdio.h>
+function(int,int);
+int main(){
+    int function(n,m);
+}
+function(int n, int m)
+{
+    int n,m,a,b,c,i,j;
+    while(function(n,m)!=0)
+    {
+        
+    }
+}
+// there is one other way to do this using recursion 
+/*
+# include <stdio.h>
+int main(){
+    int a,b,c,i,j;
+    printf("enter the numbers that you want to find the greatest common divisor and lowest common factor of : \n");
+}
+*/
 
